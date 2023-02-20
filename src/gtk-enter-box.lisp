@@ -138,7 +138,7 @@
       ;; Select the first entry of the combo box
       (setf (gtk:gtk-combo-box-active combo) 0)
       (break "~A" (gtk:gtk-combo-box-active-id combo))
-      (break "~A" (gtk:gtk-bin-get-child combo))
+      (break "~A" (::GTK-BIN-GET-CHILD combo))
         (g:g-signal-connect combo "changed"
             (lambda (object pos event)
               (declare (ignore event))
