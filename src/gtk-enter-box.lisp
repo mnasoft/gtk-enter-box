@@ -1,10 +1,10 @@
 ;;;; ./src/gtk-enter-box.lisp
 ;;;; gtk-enter-box.lisp
 
-(defpackage #:gtk-enter-box
+(defpackage :gtk-enter-box
   (:use #:cl))
 
-(in-package #:gtk-enter-box)
+(in-package :gtk-enter-box)
 
 ;;;; Example Text Entry (2021-6-11)
 
